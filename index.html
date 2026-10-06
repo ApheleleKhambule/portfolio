@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aphelele Khambule</title>
+  <meta name="description" content="Aphelele Khambule — Electrical Engineering student, backend developer and aspiring cybersecurity professional based in Gauteng, South Africa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home" aria-label="Aphelele Khambule, home">
+        <span class="brand-mark" aria-hidden="true">AK</span>
+        <span class="brand-name">Aphelele Khambule</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.5 0-1-.1-1.4A5.5 5.5 0 0 1 13.4 3.1C13 3 12.5 3 12 3z"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HOME / HERO ============ -->
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <p class="status"><span class="dot" aria-hidden="true"></span> Open to internships &amp; graduate roles</p>
+        <h1>Aphelele<br>Khambule</h1>
+        <p class="lede">
+          Electrical Engineering student and backend developer, building toward a career in
+          <strong>cybersecurity</strong>. I write Python, Bash and PowerShell, and I like knowing
+          how systems work all the way down, from the circuit to the server.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">View my projects</a>
+          <a class="btn btn-ghost" href="assets/Aphelele-Khambule-CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+
+      <figure class="terminal" aria-label="Terminal summary of Aphelele">
+        <div class="term-bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <em>aphelele@gauteng: ~</em>
+        </div>
+        <pre class="term-body"><span class="p">$</span> whoami
+aphelele-khambule
+
+<span class="p">$</span> cat role.txt
+Backend developer · EE student · Security-curious
+
+<span class="p">$</span> ls ./languages
+python  bash  powershell  javascript
+
+<span class="p">$</span> Get-Content certs.txt   <span class="c"># yes, PowerShell too</span>
+ALX Back-End Web Development
+Google Data Analytics
+Google IT Support
+
+<span class="p">$</span> echo $NEXT
+cybersecurity<span class="cursor" aria-hidden="true">▍</span></pre>
+      </figure>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section wrap" id="about">
+      <header class="section-head">
+        <p class="path">~/about</p>
+        <h2>About me</h2>
+      </header>
+      <div class="about-grid">
+        <div class="prose">
+          <p>
+            I'm a second-year Electrical Engineering diploma student at Gauteng City College.
+            Engineering taught me to think in systems: inputs, outputs, faults and how to trace them.
+            I bring that same thinking to software.
+          </p>
+          <p>
+            In 2024 I volunteered as a backend developer on a web project, building and maintaining
+            the server-side logic the application depends on. Alongside my studies I completed the ALX Back-End Web
+            Development programme and two Google professional certificates, in IT Support and Data Analytics.
+          </p>
+          <p>
+            Right now I'm focused on cybersecurity. My mix of hardware knowledge, scripting and
+            backend experience means I understand both how systems are built and where they break.
+            I'm looking for an internship where I can learn from a security or infrastructure team
+            and contribute from day one.
+          </p>
+        </div>
+        <dl class="facts">
+          <div><dt>Based in</dt><dd>Gauteng, South Africa</dd></div>
+          <div><dt>Studying</dt><dd>Diploma in Electrical Engineering (Year 2)</dd></div>
+          <div><dt>Experience</dt><dd>Volunteer backend developer, 2024</dd></div>
+          <div><dt>Focus</dt><dd>Cybersecurity, backend systems</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section wrap" id="skills">
+      <header class="section-head">
+        <p class="path">~/skills</p>
+        <h2>Skills</h2>
+      </header>
+
+      <div class="skills-grid">
+        <article class="skill-group">
+          <h3>Programming &amp; scripting</h3>
+          <ul class="chips">
+            <li>Python</li><li>JavaScript</li><li>Bash</li><li>PowerShell</li><li>SQL</li>
+          </ul>
+        </article>
+        <article class="skill-group">
+          <h3>Backend development</h3>
+          <ul class="chips">
+            <li>REST APIs</li><li>Relational databases</li><li>Git &amp; version control</li><li>Linux command line</li><li>Debugging</li>
+          </ul>
+        </article>
+        <article class="skill-group">
+          <h3>IT &amp; security foundations</h3>
+          <ul class="chips">
+            <li>Networking fundamentals</li><li>Windows &amp; Linux administration</li><li>Troubleshooting</li><li>Security fundamentals</li><li>Task automation</li>
+          </ul>
+        </article>
+        <article class="skill-group">
+          <h3>Data analysis</h3>
+          <ul class="chips">
+            <li>Spreadsheets</li><li>SQL queries</li><li>Data cleaning</li><li>Data visualisation</li><li>Presenting findings</li>
+          </ul>
+        </article>
+        <article class="skill-group">
+          <h3>Engineering</h3>
+          <ul class="chips">
+            <li>Circuit analysis</li><li>Electrical principles</li><li>Technical drawing</li><li>Systematic fault-finding</li>
+          </ul>
+        </article>
+        <article class="skill-group soft">
+          <h3>Soft skills</h3>
+          <ul class="chips">
+            <li>Problem solving</li><li>Communication</li><li>Teamwork</li><li>Self-directed learning</li><li>Attention to detail</li><li>Adaptability</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section wrap" id="projects">
+      <header class="section-head">
+        <p class="path">~/projects</p>
+        <h2>Projects</h2>
+      </header>
+
+      <div class="projects">
+        <!-- PROJECT 1 -->
+        <article class="project">
+          <div class="project-top">
+            <p class="tag">Security · Automation</p>
+            <h3>Windows &amp; Linux Security Audit Scripts</h3>
+          </div>
+          <p>
+            A pair of scripts that check a machine for common security weaknesses: open ports,
+            failed login attempts, users with admin rights and missing updates. Each produces a
+            plain-text report so issues can be spotted and fixed quickly.
+          </p>
+          <ul class="stack" aria-label="Technologies used">
+            <li>PowerShell</li><li>Bash</li><li>Windows Event Logs</li><li>Linux auth logs</li>
+          </ul>
+          <a class="project-link" href="https://github.com/ApheleleKhambule/security-audit-scripts" target="_blank" rel="noopener">View code on GitHub →</a>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project">
+          <div class="project-top">
+            <p class="tag">Backend · ALX</p>
+            <h3>REST API with Authentication</h3>
+          </div>
+          <p>
+            A backend API built during the ALX Back-End Web Development programme. It handles user
+            sign-up and login, stores data in a relational database and exposes endpoints for
+            creating, reading, updating and deleting records.
+          </p>
+          <ul class="stack" aria-label="Technologies used">
+            <li>Python</li><li>Flask</li><li>MySQL</li><li>REST</li><li>Git</li>
+          </ul>
+          <a class="project-link" href="https://github.com/ApheleleKhambule" target="_blank" rel="noopener">View code on GitHub →</a>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project">
+          <div class="project-top">
+            <p class="tag">Data · Google capstone</p>
+            <h3>Bike-Share Usage Analysis</h3>
+          </div>
+          <p>
+            Capstone case study for the Google Data Analytics certificate. I cleaned over a year of
+            trip data, compared how casual riders and members use the service, and turned the
+            findings into marketing recommendations backed by charts.
+          </p>
+          <ul class="stack" aria-label="Technologies used">
+            <li>SQL</li><li>Spreadsheets</li><li>Tableau</li><li>Data cleaning</li>
+          </ul>
+          <a class="project-link" href="https://github.com/ApheleleKhambule" target="_blank" rel="noopener">View case study →</a>
+        </article>
+
+        <!-- PROJECT 4 -->
+        <article class="project">
+          <div class="project-top">
+            <p class="tag">Frontend · This site</p>
+            <h3>Personal Portfolio Website</h3>
+          </div>
+          <p>
+            The site you're on. Built from scratch with semantic HTML, CSS and vanilla JavaScript,
+            with AI tools used to speed up development. It's fully responsive, supports light and
+            dark mode, and is deployed on GitHub Pages.
+          </p>
+          <ul class="stack" aria-label="Technologies used">
+            <li>HTML</li><li>CSS Grid &amp; Flexbox</li><li>JavaScript</li><li>GitHub Pages</li>
+          </ul>
+          <a class="project-link" href="https://github.com/ApheleleKhambule/portfolio" target="_blank" rel="noopener">View code on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section wrap" id="experience">
+      <header class="section-head">
+        <p class="path">~/experience</p>
+        <h2>Work experience</h2>
+      </header>
+      <ol class="timeline">
+        <li class="entry">
+          <p class="when">Jun 2024 – Nov 2024</p>
+          <div>
+            <h3>Backend Web Developer (Volunteer)</h3>
+            <p class="where">Independent web project</p>
+            <ul class="bullets">
+              <li>Built and maintained server-side features and API endpoints for web applications.</li>
+              <li>Wrote and optimised database queries and kept data consistent across the application.</li>
+              <li>Found and fixed bugs, tested changes before release and managed code with Git.</li>
+              <li>Worked with frontend developers to connect user interfaces to backend services.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ EDUCATION & CERTIFICATIONS ============ -->
+    <section class="section wrap" id="education">
+      <header class="section-head">
+        <p class="path">~/education</p>
+        <h2>Education &amp; certifications</h2>
+      </header>
+
+      <div class="edu-grid">
+        <div>
+          <h3 class="sub">Education</h3>
+          <article class="edu">
+            <p class="when">2025 – Present</p>
+            <h4>Diploma in Electrical Engineering</h4>
+            <p class="where">Gauteng City College · Currently in second year</p>
+          </article>
+        </div>
+
+        <div id="certifications">
+          <h3 class="sub">Certifications</h3>
+          <ul class="certs">
+            <li class="cert">
+              <span class="cert-issuer">ALX Africa</span>
+              <span class="cert-name">Back-End Web Development</span>
+            </li>
+            <li class="cert">
+              <span class="cert-issuer">Google · Coursera</span>
+              <span class="cert-name">Google Data Analytics Professional Certificate</span>
+            </li>
+            <li class="cert">
+              <span class="cert-issuer">Google · Coursera</span>
+              <span class="cert-name">Google IT Support Professional Certificate</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section wrap" id="contact">
+      <div class="contact">
+        <div>
+          <p class="path">~/contact</p>
+          <h2>Let's talk</h2>
+          <p class="contact-lede">
+            I'm looking for internships and entry-level roles in cybersecurity, IT and backend
+            development. The fastest way to reach me is by email.
+          </p>
+        </div>
+        <div class="contact-list">
+          <div class="contact-row">
+            <span class="contact-label">Email</span>
+            <a class="contact-value" id="emailText" href="mailto:aphelelekhambule16@gmail.com">aphelelekhambule16@gmail.com</a>
+            <button class="copy-btn" id="copyEmail" type="button">Copy</button>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">GitHub</span>
+            <a class="contact-value" href="https://github.com/ApheleleKhambule" target="_blank" rel="noopener">github.com/ApheleleKhambule</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">LinkedIn</span>
+            <a class="contact-value" href="https://www.linkedin.com/in/Aphelelekhambule" target="_blank" rel="noopener">linkedin.com/in/Aphelelekhambule</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">CV</span>
+            <a class="contact-value" href="assets/Aphelele-Khambule-CV.pdf" download>Aphelele-Khambule-CV.pdf</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> Aphelele Khambule</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
